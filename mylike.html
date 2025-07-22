@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <title>สายพันธุ์เป็ด</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <style>
+    .jumbotron {
+      padding: 2rem 1rem;
+      background-color: #e9f7fc;
+      border-radius: 1rem;
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <i class="bi bi-house-fill"></i> หน้าแรก
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarDuck"
+        aria-controls="navbarDuck"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarDuck">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              สายพันธุ์เป็ด
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="kaki.html">เป็ดกากีแคมเบลล์</a></li>
+              <li><a class="dropdown-item" href="runner.html">เป็ดอินเดียนรันเนอร์</a></li>
+              <li><a class="dropdown-item" href="nakhonpathom.html">เป็ดนครปฐม</a></li>
+              <li><a class="dropdown-item" href="bangpakong.html">เป็ดบางปะกง</a></li>
+              <li><a class="dropdown-item" href="paknam.html">เป็ดปากน้ำ</a></li>
+              <li><a class="dropdown-item" href="peking.html">เป็ดปักกิ่ง</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="container mt-4">
+    <div class="jumbotron text-center">
+      <h3 class="text-primary">สายพันธุ์เป็ดมีความหมายว่าอะไร?</h3>
+      <p>
+        เป็ด เป็นสัตว์ปีกที่คนส่วนใหญ่นิยมเลี้ยงไว้ใช้ประโยชน์ เช่น เนื้อเป็ด ไข่เป็ด หรือเพื่อความสวยงาม มีหลายสายพันธุ์ที่นิยมกัน เช่น เป็ดกากีแคมเบลล์ เป็ดอินเดียนรันเนอร์ เป็ดนครปฐม เป็ดบางปะกง เป็ดปักกิ่ง และเป็ดปากน้ำ ซึ่งแต่ละสายพันธุ์มีลักษณะเด่นเฉพาะตัว
+      </p>
+    </div>
+  </div>
+
+  <!-- รายละเอียดสายพันธุ์เป็ด (Slideshow with indicators, controls and captions) -->
+  <div class="container my-5">
+    <h4 class="text-center text-success mb-4">สายพันธุ์เป็ดที่นิยมเลี้ยง</h4>
+
+    <div id="duckCarousel" class="carousel slide" data-bs-ride="carousel">
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#duckCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#duckCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#duckCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#duckCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#duckCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#duckCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      </div>
+
+      <!-- Slides -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h5>1. พันธุ์กากีแคมเบลล์ (Khaki Campbell)</h5>
+          <p>สายพันธุ์เป็ดไข่ที่ได้รับความนิยมมากที่สุด ลักษณะเด่นของสายพันธุ์คือ มีขนลำตัวสีน้ำตาล ในเพศผู้มีขนที่บริเวณส่วนอกเข้มกว่าลำตัว และมีขนที่ปลายหางม้วนงอ สำหรับการแยกเพศก็ไม่ยาก ถ้าเป็นตัวผู้จะมีขนเป็นวงแหวนสีน้ำตาลอ่อนรอบคอ ที่หัวมีขนสีเขียว ส่วนตัวเมียจะไม่มีลักษณะเด่นแบบนี้ เพศเมียให้ผลผลิตไข่ฟองแรกที่อายุประมาณ 18-20 สัปดาห์ และให้ผลผลิตไข่อย่างน้อย 280 ฟองต่อตัวต่อปี</p>
+        </div>
+        <div class="carousel-item">
+          <h5>2. เป็ดอินเดียนรันเนอร์ (Indian runner duck)</h5>
+          <p>เป็ดที่มีขนาดเล็ก ลักษณะเด่น คือ ปากสีเหลือง แข้งกับเท้าสีส้ม ขนมีทั้งสีขาว สีเทา และมีลาย เวลาที่ยืนคอยืดตั้งตรง ลำตัวเกือบตั้งฉากกับพื้นคล้ายกับนกเพนกวิ้น เป็ดพันธุ์นี้จะไม่ค่อยบินแต่มักจะใช้การเดินและวิ่งมากกว่า ตัวเมียเริ่มให้ไข่เมื่ออายุประมาณ 4 เดือนครึ่ง ให้ไข่ฟองโตและไข่ทน ให้ไข่ประมาณ 150-200 ฟอง/ปี</p>
+        </div>
+        <div class="carousel-item">
+          <h5>3. เป็ดนครปฐม</h5>
+          <p>เป็นเป็ดที่พบในเขตภาคกลาง เช่น นครปฐม เพชรบุรี สุพรรณบุรี และในเขตภาคกลาง ความแตกต่างระหว่างตัวเมียกับตัวผู้ ก็คือ ตัวผู้จะมีสีเขียวแก่ตั้งแต่คอไปถึงหัว รอบคอมีวงรอบสีขาว อกสีแดง ลำตัวสีเทา ปากสีเทา และเท้าสีส้ม แต่ตัวเมียจะมีส่วนที่แตกต่างก็คือสีขนจะเป็นลาย ตัวเมียจะเริ่มให้ไข่เมื่ออายุประมาณ 6 เดือน</p>
+        </div>
+        <div class="carousel-item">
+          <h5>4. พันธุ์ปากน้ำ</h5>
+          <p>เป็ดไข่พื้นเมืองขนาดเล็ก มีขนลำตัวสีดำ เพศผู้มีขนที่หัวสีเขียวเข้ม ปาก แข้ง และเท้าสีดำ เริ่มให้ผลผลิตไข่เมื่ออายุ 18-20 สัปดาห์ สามารถให้ผลผลิตไข่ประมาณ 280-300 ฟองต่อตัวต่อปี</p>
+        </div>
+        <div class="carousel-item">
+          <h5>5. พันธุ์บางปะกง</h5>
+          <p>เป็ดไข่ที่มีขนลำตัวสีกากี เพศผู้มีขนสีเขียวเข้มที่บริเวณหัว ปลายหาง และปลายปีก โดยมีขนปลายหางงอนขึ้นด้านบน ปากสีดำ ขาและเท้ามีส้ม ตัวเมียทั้งตัวจะมีสีน้ำตาลอ่อนตลอดตัว และเริ่มให้ไข่ที่อายุประมาณ 20 สัปดาห์ โดยให้ผลผลิตไข่เฉลี่ย 280 ฟองต่อตัวต่อปี</p>
+        </div>
+        <div class="carousel-item">
+          <h5>6. พันธุ์ปักกิ่ง (Pekin duck)</h5>
+          <p>เป็นที่มีบ้านเกิดมาจากจีน เป็นเป็ดที่ตัวใหญ่ ขนมีสีขาว ลำตัวกว้างและหนา ปากสีเหลืองส้ม ตัวผู้จะมีน้ำหนักราว 4 กิโลกรัม ตัวเมียจะหนักประมาณ 3 กิโลกรัม เป็ดปักกิ่งนั้นนอกจากเนื้อที่ขายได้ ขนเป็ดปักกิ่งยังเป็นที่ต้องการของอุตสาหกรรมผลิตลูกขนไก่ และใช้ท้าฟูกที่นอนได้ด้วย</p>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#duckCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#duckCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="container mb-5">
+    <nav class="d-flex justify-content-center">
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="index.html">หน้าแรก</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item active" aria-current="page">
+          <a class="page-link" href="#">2</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
